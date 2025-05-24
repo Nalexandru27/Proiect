@@ -87,13 +87,13 @@ if uploaded_file is None:
             'Ticker': f'COMP{i+21}',
             'Sector': np.random.choice(sectors),
             'Price': np.random.uniform(20, 300),
-            'Market_Cap': np.random.uniform(1, 500),
+            'Market Cap': np.random.uniform(1, 500),
             'Current Ratio': np.random.uniform(0.5, 10),
-            'Dividend_Yield': np.random.uniform(0, 8),
-            'PE_Ratio': np.random.uniform(5, 40),
+            'Dividend Yield': np.random.uniform(0, 8),
+            'P/E Ratio': np.random.uniform(5, 40),
             'ROE': np.random.uniform(5, 45),
-            'Debt_to_Capital': np.random.uniform(10, 60),
-            'Earnings_Stability': np.random.choice([True, False])
+            'Debt/Capital': np.random.uniform(10, 60),
+            'Earnings Stability': np.random.choice([True, False])
         }
         additional_rows.append(row)
     
